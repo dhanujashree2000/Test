@@ -1,3 +1,7 @@
 let a = 10
 let b = 20
-console.log(a+b)
+const subtract = (a,b) =>{
+    return a-b
+}
+
+console.log(subtract(a,b))
